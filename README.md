@@ -178,3 +178,19 @@ Finally, I used the eigenvectors from the covariance matrix of the training data
 -  FPCA led to a **slight improvement in F1-score** over raw data while achieving a **10.64-fold reduction** in dimensionality.
 
 -  These results highlight an important insight: the amount of collected data doesn't always correspond to the amount of useful information. By applying effective dimensionality reduction techniques, we were able to extract meaningful features in a much lower-dimensional space while maintaining, and sometimes even improving, model performance.
+
+## Project Structure:
+
+[Main Notebook](main.ipynb)
+
+[Used Packages](used_packages.py)
+
+[Data](data)
+
+[Classification Models](models.py)
+
+[Utility Functions](utils.py)
+
+## Author:
+
+Ali Moughnieh: [\@amoughnieh](https://github.com/amoughnieh)
